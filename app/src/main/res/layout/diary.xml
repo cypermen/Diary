@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diary">
+
+
+    <Button
+        android:id="@+id/monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/monday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/tuesday"
+        android:layout_width="129dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/tuesday"
+        app:layout_constraintEnd_toEndOf="@+id/monday"
+        app:layout_constraintHorizontal_bias="0.969"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monday" />
+
+    <Button
+        android:id="@+id/wednesday"
+        android:layout_width="129dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="96dp"
+        android:text="@string/wednesday"
+        app:layout_constraintEnd_toEndOf="@+id/tuesday"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuesday" />
+
+    <Button
+        android:id="@+id/thursday"
+        android:layout_width="129dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="96dp"
+        android:text="@string/thursday"
+        app:layout_constraintEnd_toEndOf="@+id/wednesday"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wednesday" />
+
+    <Button
+        android:id="@+id/friday"
+        android:layout_width="129dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="96dp"
+        android:text="@string/friday"
+        app:layout_constraintEnd_toEndOf="@+id/thursday"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thursday" />
+
+    <Button
+        android:id="@+id/saturday"
+        android:layout_width="130dp"
+        android:layout_height="43dp"
+        android:text="@string/saturday"
+        app:layout_constraintEnd_toEndOf="@+id/friday"
+        app:layout_constraintTop_toBottomOf="@+id/friday" />
+
+    <Button
+        android:id="@+id/sunday"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="96dp"
+        android:text="@string/sunday"
+        app:layout_constraintEnd_toEndOf="@+id/saturday"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saturday" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="36dp"
+        android:text="Выбирете день недели"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

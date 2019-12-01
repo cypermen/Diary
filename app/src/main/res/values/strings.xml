@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Diary</string>
+    <string name="password">Введите пароль</string>
+    <string name="password_registration">Введите пароль для регистрации</string>
+    <string name="name_registrations">Введите имя для регистрации</string>
+    <string name="name">Введите имя</string>
+    <string name="registration">Регистрация</string>
+    <string name="set_registration">Зарегистрироваться</string>
+    <string name="authorization">Авторизация </string>
+    <!-- Дни недели-->
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресение</string>
+    <!-- Дни недели-->
+</resources>

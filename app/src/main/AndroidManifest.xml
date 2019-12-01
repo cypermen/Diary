@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diary" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Authorization" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registrations"
+            android:label="@string/registration">
+        </activity>
+        <activity
+            android:name=".Diary"
+            android:label="diary">
+        </activity>
+        <activity
+            android:name=".Monday"
+            android:label="@string/monday">
+        </activity>
+        <activity
+            android:name=".Tuesday"
+            android:label="@string/tuesday">
+        </activity>
+        <activity
+            android:name=".Wednesday"
+            android:label="@string/wednesday">
+        </activity>
+        <activity
+            android:name=".Thursday"
+            android:label="@string/thursday">
+        </activity>
+        <activity
+            android:name=".Friday"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Saturday"
+            android:label="@string/saturday">
+        </activity>
+        <activity
+            android:name=".Sunday"
+            android:label="@string/sunday">
+        </activity>
+    </application>
+
+</manifest>
