@@ -1,6 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Saturday_set">
 
-</LinearLayout>
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/subject1"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="@string/EnterSubject"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/task1"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="@string/EnterTask"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/task5"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="188dp"
+        android:ems="10"
+        android:hint="@string/EnterTask"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subject4" />
+
+    <EditText
+        android:id="@+id/subject5"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/EnterSubject"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subject4" />
+
+    <EditText
+        android:id="@+id/subject6"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/EnterSubject"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task5" />
+
+    <EditText
+        android:id="@+id/task6"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="188dp"
+        android:ems="10"
+        android:hint="@string/EnterTask"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task5" />
+
+    <EditText
+        android:id="@+id/subject4"
+        android:layout_width="179dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="@string/EnterSubject"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task3" />
+
+    <EditText
+        android:id="@+id/task4"
+        android:layout_width="179dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="188dp"
+        android:ems="10"
+        android:hint="@string/EnterTask"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task3" />
+
+    <EditText
+        android:id="@+id/task2"
+        android:layout_width="179dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="188dp"
+        android:ems="10"
+        android:hint="@string/EnterTask"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subject1" />
+
+    <EditText
+        android:id="@+id/subject2"
+        android:layout_width="179dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:hint="@string/EnterSubject"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subject1" />
+
+    <EditText
+        android:id="@+id/task3"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="188dp"
+        android:ems="10"
+        android:hint="@string/EnterTask"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task2" />
+
+    <EditText
+        android:id="@+id/subject3"
+        android:layout_width="179dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/EnterSubject"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/task2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

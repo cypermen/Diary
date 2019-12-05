@@ -52,6 +52,34 @@
             android:name=".Sunday"
             android:label="@string/sunday">
         </activity>
+        <activity
+            android:name=".Monday_set"
+            android:label="@string/monday">
+        </activity>
+        <activity
+            android:name=".Tuesday_set"
+            android:label="@string/tuesday">
+        </activity>
+        <activity
+            android:name=".Wednesday_set"
+            android:label="@string/wednesday">
+        </activity>
+        <activity
+            android:name=".Thursday_set"
+            android:label="@string/thursday">
+        </activity>
+        <activity
+            android:name=".Friday_set"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Saturday_set"
+            android:label="@string/saturday">
+        </activity>
+        <activity
+            android:name=".Sunday_set"
+            android:label="@string/sunday">
+        </activity>
     </application>
 
 </manifest>

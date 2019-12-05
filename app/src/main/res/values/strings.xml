@@ -17,4 +17,9 @@
     <string name="saturday">Суббота</string>
     <string name="sunday">Воскресение</string>
     <!-- Дни недели-->
+
+    <string name="EnterTask">Введмик задание</string>
+    <string name="EnterSubject">Введмик предмет</string>
+    <string name="Change">Изменить</string>
+    <string name="Save">Save</string>
 </resources>

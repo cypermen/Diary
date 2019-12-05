@@ -28,10 +28,9 @@ public class Authorization extends AppCompatActivity {
         userPassword = getIntent().getStringExtra("password");
         name = (TextView) findViewById(R.id.name);
         password = (TextView) findViewById(R.id.password);
-        wrong = (TextView) findViewById(R.id.wrong);//неверный ввод
+        wrong = (TextView) findViewById(R.id.wrong);
         registration = (Button) findViewById(R.id.regestation1);
         authorization =(Button) findViewById(R.id.authorization);
-
 
         final Intent registrationIntent = new Intent(this, Registrations.class);
         final Intent diaryIntent = new Intent(this, Diary.class);
