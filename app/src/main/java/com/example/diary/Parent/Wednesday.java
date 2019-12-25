@@ -1,4 +1,4 @@
-package com.example.diary;
+package com.example.diary.Parent;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Thursday extends AppCompatActivity {
+import com.example.diary.R;
+import com.example.diary.Teacher.Wednesday_set;
+
+public class Wednesday extends AppCompatActivity {
+
     Button change;
     String subject1;
     String subject2;
@@ -36,13 +40,28 @@ public class Thursday extends AppCompatActivity {
     TextView tvtask4;
     TextView tvtask5;
     TextView tvtask6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
-
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.thursday);
+
+        setContentView(R.layout.wednesday);
+        getSubjectsFromSever();
+        getTasksFromSever();
+        setSubjects();
+        setTasks();
+        
+        final Intent wednesdaySet = new Intent(this, Wednesday_set.class);
+        change.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                startActivity(wednesdaySet);
+            }
+        });
+    }
+
+    public void init(){
         tvsubject1 = (TextView)findViewById(R.id.subject1);
         tvsubject2 = (TextView)findViewById(R.id.subject2);
         tvsubject3 = (TextView)findViewById(R.id.subject3);
@@ -55,39 +74,42 @@ public class Thursday extends AppCompatActivity {
         tvtask4 = (TextView)findViewById(R.id.task4);
         tvtask5 = (TextView)findViewById(R.id.task5);
         tvtask6 = (TextView)findViewById(R.id.task6);
-        subject1 = getIntent().getStringExtra("subject1");
-        subject2 = getIntent().getStringExtra("subject2");
-        subject3 = getIntent().getStringExtra("subject3");
-        subject4 = getIntent().getStringExtra("subject4");
-        subject5 = getIntent().getStringExtra("subject5");
-        subject6 = getIntent().getStringExtra("subject6");
-        task1 = getIntent().getStringExtra("task1");
-        task2 = getIntent().getStringExtra("task2");
-        task3 = getIntent().getStringExtra("task3");
-        task4 = getIntent().getStringExtra("task4");
-        task5 = getIntent().getStringExtra("task5");
-        task6 = getIntent().getStringExtra("task6");
-        change = (Button) findViewById(R.id.button);
 
+        change = (Button) findViewById(R.id.button);
+    }
+
+    public void getSubjectsFromSever(){
+        subject1 = "";
+        subject2 = "";
+        subject3 = "";
+        subject4 = "";
+        subject5 = "";
+        subject6 = "";
+    }
+
+    public void getTasksFromSever(){
+        task1 = "";
+        task2 = "";
+        task3 = "";
+        task4 = "";
+        task5 = "";
+        task6 = "";
+    }
+    public void setSubjects(){
         tvsubject1.setText(subject1);
         tvsubject2.setText(subject2);
         tvsubject3.setText(subject3);
         tvsubject4.setText(subject4);
         tvsubject5.setText(subject5);
         tvsubject6.setText(subject6);
+    }
+
+    public void setTasks(){
         tvtask1.setText(task1);
         tvtask2.setText(task2);
         tvtask3.setText(task3);
         tvtask4.setText(task4);
         tvtask5.setText(task5);
         tvtask6.setText(task6);
-        final Intent thursdaySet = new Intent(this, Thursday_set.class);
-        change.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                startActivity(thursdaySet);
-            }
-        });
     }
 }

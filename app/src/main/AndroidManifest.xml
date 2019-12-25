@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".Authorization" >
+        <activity android:name=".Choose" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,68 +17,44 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Registrations"
-            android:label="@string/registration">
-        </activity>
-        <activity
-            android:name=".Diary"
-            android:label="diary">
-        </activity>
-        <activity
-            android:name=".Monday"
+            android:name=".Student.Monday"
             android:label="@string/monday">
         </activity>
         <activity
-            android:name=".Tuesday"
+            android:name=".Student.Tuesday"
             android:label="@string/tuesday">
         </activity>
         <activity
-            android:name=".Wednesday"
+            android:name=".Student.Wednesday"
             android:label="@string/wednesday">
         </activity>
         <activity
-            android:name=".Thursday"
+            android:name=".Student.Thursday"
             android:label="@string/thursday">
         </activity>
         <activity
-            android:name=".Friday"
+            android:name=".Student.Friday"
             android:label="@string/friday">
         </activity>
         <activity
-            android:name=".Saturday"
-            android:label="@string/saturday">
-        </activity>
-        <activity
-            android:name=".Sunday"
-            android:label="@string/sunday">
-        </activity>
-        <activity
-            android:name=".Monday_set"
+            android:name=".Teacher.Monday_set"
             android:label="@string/monday">
         </activity>
         <activity
-            android:name=".Tuesday_set"
+            android:name=".Teacher.Tuesday_set"
             android:label="@string/tuesday">
         </activity>
         <activity
-            android:name=".Wednesday_set"
+            android:name=".Teacher.Wednesday_set"
             android:label="@string/wednesday">
         </activity>
         <activity
-            android:name=".Thursday_set"
+            android:name=".Teacher.Thursday_set"
             android:label="@string/thursday">
         </activity>
         <activity
-            android:name=".Friday_set"
+            android:name=".Teacher.Friday_set"
             android:label="@string/friday">
-        </activity>
-        <activity
-            android:name=".Saturday_set"
-            android:label="@string/saturday">
-        </activity>
-        <activity
-            android:name=".Sunday_set"
-            android:label="@string/sunday">
         </activity>
     </application>
 

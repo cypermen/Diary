@@ -1,4 +1,4 @@
-package com.example.diary;
+package com.example.diary.Teacher;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +9,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Wednesday_set extends AppCompatActivity {
+import com.example.diary.R;
+import com.example.diary.Student.Monday;
+
+public class Thursday_set extends AppCompatActivity {
     Button save;
 
     TextView subject1;
@@ -29,7 +32,7 @@ public class Wednesday_set extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.wednesday_set);
+        setContentView(R.layout.thursday_set);
         save = (Button)findViewById(R.id.Save);
         subject1 = (TextView)findViewById(R.id.subject1);
         subject2 = (TextView)findViewById(R.id.subject2);

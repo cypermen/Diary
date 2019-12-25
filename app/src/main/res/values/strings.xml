@@ -7,7 +7,17 @@
     <string name="name">Введите имя</string>
     <string name="registration">Регистрация</string>
     <string name="set_registration">Зарегистрироваться</string>
-    <string name="authorization">Авторизация </string>
+    <string name="student_authorization">Авторизация для ученика</string>
+    <string name="teacher_authorization">Авторизация для учителя</string>
+    <string name="parent_authorization">Авторизация для родителя</string>
+    <string name="admin_authorization">Авторизация для админа</string>
+    <string name="choose">Войти как:</string>
+    <string name="authorization">Авторизация</string>
+    <string name="director_authorization">Авторизация для директора</string>
+    <string name="student">Ученик</string>
+    <string name="admin">Админ</string>
+    <string name="parent">Родитель</string>
+    <string name="teacher">Учитель</string>
     <!-- Дни недели-->
     <string name="monday">Понедельник</string>
     <string name="tuesday">Вторник</string>
@@ -18,8 +28,13 @@
     <string name="sunday">Воскресение</string>
     <!-- Дни недели-->
 
-    <string name="EnterTask">Введмик задание</string>
-    <string name="EnterSubject">Введмик предмет</string>
+    <string name="EnterTask">Введите задание</string>
+    <string name="EnterSubject">Введите предмет</string>
     <string name="Change">Изменить</string>
     <string name="Save">Save</string>
+    <string name="student_wrong">Такой ученик не найден</string>
+    <string name="teacher_wrong">Такой учительн не найден</string>
+    <string name="parent_wrong">Авторизация для родителя</string>
+    <string name="admin_wrong">Данные введены неверно</string>
+    <string name="director_wrong">Авторизация для директора</string>
 </resources>
