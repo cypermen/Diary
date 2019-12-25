@@ -8,7 +8,7 @@
     tools:context=".Choose">
 
     <Button
-        android:id="@+id/parent"
+        android:id="@+id/student"
         android:layout_width="215dp"
         android:layout_height="64dp"
         android:layout_marginStart="96dp"

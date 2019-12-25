@@ -37,6 +37,10 @@
             android:label="@string/friday">
         </activity>
         <activity
+            android:name=".Student.Student"
+            android:label="@string/friday">
+        </activity>
+        <activity
             android:name=".Teacher.Monday_set"
             android:label="@string/monday">
         </activity>
@@ -54,6 +58,50 @@
         </activity>
         <activity
             android:name=".Teacher.Friday_set"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Teacher.Teacher"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Parent.Monday"
+            android:label="@string/monday">
+        </activity>
+        <activity
+            android:name=".Parent.Tuesday"
+            android:label="@string/tuesday">
+        </activity>
+        <activity
+            android:name=".Parent.Wednesday"
+            android:label="@string/wednesday">
+        </activity>
+        <activity
+            android:name=".Parent.Thursday"
+            android:label="@string/thursday">
+        </activity>
+        <activity
+            android:name=".Parent.Friday"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Parent.Parent"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Authorization.Admin_Authorisation"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Authorization.Teacher_Authorisation"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Authorization.Parent_Authorisation"
+            android:label="@string/friday">
+        </activity>
+        <activity
+            android:name=".Authorization.Student_Authorisation"
             android:label="@string/friday">
         </activity>
     </application>

@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.diary.Authorization.Parent_Authorisation;
 import com.example.diary.Authorization.Student_Authorisation;
+import com.example.diary.Authorization.Teacher_Authorisation;
 import com.example.diary.Teacher.Friday_set;
 
 public class Choose extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class Choose extends AppCompatActivity {
         init();
         final Intent student_authorisation = new Intent(this, Student_Authorisation.class);
         final Intent parent_authorisation = new Intent(this, Parent_Authorisation.class);
-        final Intent teacher_authorisation = new Intent(this, Friday_set.class);
+        final Intent teacher_authorisation = new Intent(this, Teacher_Authorisation.class);
         final Intent admin_authorisation = new Intent(this, Friday_set.class);
         student.setOnClickListener(new View.OnClickListener() {
 
